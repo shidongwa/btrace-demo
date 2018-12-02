@@ -62,6 +62,11 @@ BTrace 是一个线上诊断分析工具。而且是安全性，无侵入性，�
 - `Kind.CALL` - 监控被调用函数里面所有调用的函数
 - `Kind.LINE` - 行号
 
+## 运行方法
+- 从btrace项目拷贝btrace-agent.jar,btrace-boot.jar包到项目根目录的lib子目录
+- 执行gradle idea生成idea项目文件
+- 把项目导入到idea
+
 ## 其他
 
 - `@TLS` 定义ThreadLocal变量。例如进程间通信
